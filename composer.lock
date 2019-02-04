@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a31455ba35f6cf1828142bee3af8196d",
+    "content-hash": "b6866407a3daa5a98342ed31874fc2ef",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3190,16 +3190,16 @@
         },
         {
             "name": "trax/framework",
-            "version": "dev-master",
+            "version": "1.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax-framework.git",
-                "reference": "4b040f0bc3a74f13b87ae4cb519faace27366ad6"
+                "reference": "0ee8358f69e18a31623dd878f4aae3b98ab28bb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax-framework/zipball/4b040f0bc3a74f13b87ae4cb519faace27366ad6",
-                "reference": "4b040f0bc3a74f13b87ae4cb519faace27366ad6",
+                "url": "https://api.github.com/repos/trax-project/trax-framework/zipball/0ee8358f69e18a31623dd878f4aae3b98ab28bb8",
+                "reference": "0ee8358f69e18a31623dd878f4aae3b98ab28bb8",
                 "shasum": ""
             },
             "type": "library",
@@ -3224,20 +3224,20 @@
                 }
             ],
             "description": "Common layout for Trax applications",
-            "time": "2019-01-31T14:45:11+00:00"
+            "time": "2019-01-31T17:49:47+00:00"
         },
         {
             "name": "trax/xapi",
-            "version": "dev-master",
+            "version": "1.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax-xapi.git",
-                "reference": "b434f295d1f28014da44ae3b2a3e54cf6ba4da47"
+                "reference": "40425db2747cdd3f80e7fe9d6e42eb42c870003c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax-xapi/zipball/b434f295d1f28014da44ae3b2a3e54cf6ba4da47",
-                "reference": "b434f295d1f28014da44ae3b2a3e54cf6ba4da47",
+                "url": "https://api.github.com/repos/trax-project/trax-xapi/zipball/40425db2747cdd3f80e7fe9d6e42eb42c870003c",
+                "reference": "40425db2747cdd3f80e7fe9d6e42eb42c870003c",
                 "shasum": ""
             },
             "type": "library",
@@ -3259,7 +3259,7 @@
                 }
             ],
             "description": "xAPI core features for Trax applications",
-            "time": "2019-01-31T13:49:20+00:00"
+            "time": "2019-01-31T17:51:23+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5140,8 +5140,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "trax/framework": 20,
-        "trax/xapi": 20
+        "trax/framework": 5,
+        "trax/xapi": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
