@@ -60,7 +60,7 @@ It has a minimalist set of features, but can be extended by anyone who has <a hr
 
 To simplest way to clone the application is to use the Composer `create-project` command in your terminal. The following example installs the application in a directory named *traxlrs*: 
 
-    composer create-project --stability rc trax/lrs traxlrs
+    composer create-project --prefer-dist --stability rc trax/lrs traxlrs
 
 
 ### Directory permissions
