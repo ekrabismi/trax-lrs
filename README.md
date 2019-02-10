@@ -150,7 +150,16 @@ After installing the database, you may want to create an admin user in order to 
 
 Copy the generated password and email. Then, open your browser and log into the application. Don't forget to change your password in *My Profile*. 
 
-**TRAX LRS is ready!**
+
+## Creating a client account
+
+Once your database is installed, you may want to create some Basic HTTP client accounts in order to let your third party applications connect to the LRS. You can create client accounts directly from the LRS user interface (Basic HTTP Clients page), or with the `php artisan client:create` command (see details below).
+
+Then, you can configure your client with its credentials and the following endpoint, considering that your LRS URL is `http://trax.test`:
+
+    http://trax.test/trax/ws/xapi
+
+If you want to check that the endpoint URL is correct that your LRS is running, just enter `http://trax.test/trax/ws/xapi/about` in your browser. You should see some JSON information.
 
 
 ## Console commands
