@@ -96,7 +96,7 @@ At the root of your application, you should find a file named `.env`. If this fi
 
 ### Database
 
-- `DB_CONNECTION` should be `mysql` with MySQL and MariaDB, `pqsql` with PostgreSQL or `mongodb` with a pure MongoDB scenario. For hybrid database scenarios, it should be `mysql` or `pqsql` depending of your relational database.
+- `DB_CONNECTION` should be `mysql` with MySQL and MariaDB, `pgsql` with PostgreSQL or `mongodb` with a pure MongoDB scenario. For hybrid database scenarios, it should be `mysql` or `pgsql` depending of your relational database.
 
 
 #### Relational database (when applicable)
@@ -132,7 +132,7 @@ At the root of your application, you should find a file named `.env`. If this fi
 
 - `SESSION_DRIVER` should be `database` for relational and hybrid database scenarios, or `file` for pure MongoDB scenarios.
 
-- `SESSION_CONNECTION` should be `mysql` with MySQL and MariaDB, or `pqsql` with PostgreSQL. It is not used with pure MongoDB scenarios.
+- `SESSION_CONNECTION` should be `mysql` with MySQL and MariaDB, or `pgsql` with PostgreSQL. It is not used with pure MongoDB scenarios.
 
 
 ## Installing the database
