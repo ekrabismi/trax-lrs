@@ -14,6 +14,11 @@ return [
         'limit' => env('XAPI_SERVER_LIMIT', 1000),
     ),
 
+    'authority' => array(
+        'homePage' => 'http://trax.test',
+        'name' => 'traxlrs',
+    ),
+
     'stores' => array(
 
         'Statement' => array(
