@@ -12,7 +12,7 @@ return [
         'digest' => false,
     ),
 
-    'listener' => Trax\Notification\EventListener::class,
+    'listener' => Trax\Foundation\TraxEventListener::class,
 
     'stores' => array(
 
