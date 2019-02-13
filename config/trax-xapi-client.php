@@ -11,6 +11,8 @@ return [
     'xapi' => array(
         'lang' => 'en',
         'version' => '1.0.3',
+        'platform_iri' => 'http://trax.test',
+        'platform_name' => 'TRAX LRS',
     ),
     
 ];
