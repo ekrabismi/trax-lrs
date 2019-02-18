@@ -16,5 +16,5 @@
 @endsection
 
 @section('components')
-    <script src="{{ mix('js/trax-account.js') }}"></script>
+    <script src="{{ traxMix('js/trax-account.js') }}"></script>
 @endsection
