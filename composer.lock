@@ -3190,16 +3190,16 @@
         },
         {
             "name": "trax/framework",
-            "version": "1.0.0-rc.3",
+            "version": "1.0.0-rc.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax-framework.git",
-                "reference": "120b3b1ab609da68588f8e005855b7f845a44dbb"
+                "reference": "c0be0c9797625ee93a459858997e8f5f84b9a6df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax-framework/zipball/120b3b1ab609da68588f8e005855b7f845a44dbb",
-                "reference": "120b3b1ab609da68588f8e005855b7f845a44dbb",
+                "url": "https://api.github.com/repos/trax-project/trax-framework/zipball/c0be0c9797625ee93a459858997e8f5f84b9a6df",
+                "reference": "c0be0c9797625ee93a459858997e8f5f84b9a6df",
                 "shasum": ""
             },
             "type": "library",
@@ -3224,20 +3224,20 @@
                 }
             ],
             "description": "Common layout for Trax applications",
-            "time": "2019-02-11T09:38:35+00:00"
+            "time": "2019-02-18T12:04:38+00:00"
         },
         {
             "name": "trax/xapi",
-            "version": "1.0.0-rc.3",
+            "version": "1.0.0-rc.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax-xapi.git",
-                "reference": "982b91a932beae952d7eb346c6b3f8c66abb0205"
+                "reference": "503b289277ca776888484f59e805d428fb30d310"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax-xapi/zipball/982b91a932beae952d7eb346c6b3f8c66abb0205",
-                "reference": "982b91a932beae952d7eb346c6b3f8c66abb0205",
+                "url": "https://api.github.com/repos/trax-project/trax-xapi/zipball/503b289277ca776888484f59e805d428fb30d310",
+                "reference": "503b289277ca776888484f59e805d428fb30d310",
                 "shasum": ""
             },
             "type": "library",
@@ -3259,7 +3259,7 @@
                 }
             ],
             "description": "xAPI core features for Trax applications",
-            "time": "2019-02-13T21:14:09+00:00"
+            "time": "2019-02-18T12:05:39+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
