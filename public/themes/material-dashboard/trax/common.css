@@ -721,6 +721,11 @@ td.trax-drag-handler {
 }
 
 
+/* File upload buttons */
+
+::-webkit-file-upload-button { cursor:pointer; }
+
+
 /*----------------------- Collapsible -------------------*/
 
 
