@@ -97,6 +97,11 @@ return [
             'table' => 'trax_account_password_resets',
             'expire' => 60,
         ],
+        'users_invitations' => [
+            'provider' => 'users',
+            'table' => 'trax_account_password_resets',
+            'expire' => 60*24*3,
+        ],
     ],
 
 ];
