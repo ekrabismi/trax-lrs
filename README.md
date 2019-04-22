@@ -101,7 +101,7 @@ At the root of your application, you should find a file named `.env`. If this fi
 
 #### Relational database (when applicable)
 
-- `DB_HOST` and `DB_POST` should be used to locate your relational database.
+- `DB_HOST` and `DB_HOST` should be used to locate your relational database.
 
 - `DB_DATABASE` is the name of your relational database.
 
